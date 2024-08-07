@@ -1,0 +1,121 @@
+.btn {
+    /* align-content: center; */
+    float: right;
+    padding: 10px 20px 10px 20px;
+    /* background-color: #a31803; */
+    /* border-radius: 22px; */
+    margin-top: 25px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+label {
+    padding-top: 12px;
+}
+
+input {
+    padding-top: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+}
+
+th,
+td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#allpacakage {
+    /* background: url(../images/fees_bg.webp); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 0;
+}
+
+.benifits-li::before {
+    padding: 8px;
+    content: "\f058";
+    font-family: "Font Awesome 5 Free";
+    color: #18ba60;
+    font-size: 12px;
+    display: inline-table;
+}
+
+.benifits-li {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 24px;
+    list-style: none;
+}
+
+.food__cont1 {
+    margin-bottom: 0px;
+}
+
+.food__cont {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.block_heading {
+    width: 100%;
+    display: inline-table;
+}
+
+.penalty_area {
+    padding: 20px 0 30px;
+}
+
+@media (min-width: 992px) {
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+.benifts-heading {
+    color: white;
+    margin-top: 30px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.benifts-heading {
+    color: white;
+    margin-top: 30px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 26px;
+}
+
+.penalty_info {
+    text-align: center;
+    min-height: 180px;
+    margin-top: 25px;
+    padding: 0 20px;
+}
+
+.penalty_info p {
+    padding-top: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

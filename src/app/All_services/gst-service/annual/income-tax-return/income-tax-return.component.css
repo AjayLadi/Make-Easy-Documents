@@ -1,0 +1,115 @@
+.banner_image_text .head-h4 span {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    display: inline-table;
+    float: left;
+    width: 100%;
+    margin-bottom: 8px;
+    background: #ff6c00;
+    color: #fff;
+    padding: 15px 35px;
+    border-radius:20px;
+    text-align: center;
+}
+
+.trust_business {
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    background: #ffe4a8;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    display: table;
+    border: 1px solid #ffbe28;
+    position: relative;
+}
+.filed_returns_through_new_block {
+    margin-top: 40px;
+    box-shadow: 2px 1px 17px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    overflow: hidden;
+    border: 1px solid #dddddd;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 0 !important;
+}
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+.filed_returns_through_new_block table th {
+    background-color: #059862;
+    padding: 10px;
+    color: #fff;
+}
+.first_th_block {
+    width: 18%;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.first_td{
+    text-align: center;
+}
+.trust_business h2 {
+    font-size: 29px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #b78618;
+}
+.trust_business p {
+    float: none;
+    font-size: 21px;
+    color: #986f11;
+    margin-left: 5px;
+    width: auto;
+    display: inline;
+}
+.banner_image_text li {
+    float: left;
+    width: 47%;
+    text-align: left;
+    line-height: 24px;
+    color: #676d77;
+    font-size: 17px;
+    margin-bottom: 32px;
+    margin-right: 30px;
+}
+.banner_image_text ul {
+    float: left;
+    width: 100%;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.banner img {
+    width: auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    border: 0;
+}

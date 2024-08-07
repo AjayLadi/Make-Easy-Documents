@@ -1,0 +1,121 @@
+.error {
+  color: #ff2d2d !important;
+}
+.fic_common_modal_twenty_two button.close {
+  border: 0;
+  border-radius: 50px;
+  font-size: 30px;
+  opacity: 1;
+}
+.fic_common_modal_twenty_two  .modal-header{
+   border-bottom: none;
+}
+.fic_common_modal_twenty_two .popup_logo img{
+width: 80%;
+margin: 0 auto;
+}
+.fic_common_modal_twenty_two .popup_logo{
+   text-align: center;
+}
+.fic_common_modal_twenty_two .acpf_margin {
+  margin-top: 15px;
+}
+.fic_common_modal_twenty_two_custom_control {
+  height: 45px !important;
+}
+.fic_common_modal_twenty_two .popup_button {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fic_common_modal_twenty_two .alternative-contact-popup-submit-btn{
+font-size: 16px !important;
+color: #fff !important;
+}
+.fic_common_modal_twenty_two .modal-dialog{
+   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.fic_common_modal_twenty_two .modal-content{
+  position: relative;
+  width: 100%;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.fic_common_modal_twenty_two .modal-body{
+  padding: 15px 30px 30px;
+}
+.fic_common_modal_twenty_two button.close{
+  position: relative;
+  width: auto;
+  height: auto;
+  box-shadow: none;
+  right: 0;
+  top: 0;
+  background: none;
+}
+.fic_common_modal_twenty_two .lable_custom {
+  color: #1f2643;
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0 0 7px;
+}
+.fic_common_modal_twenty_two .lable_custom span {
+  display: block;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.fic_common_modal_twenty_two .fic_common_modal_twenty_two_img {
+  text-align: center;
+  padding-bottom: 15px;
+}
+.fic_common_modal_twenty_two input:not([type=submit]){
+  margin: 0;
+  border: none !important;
+  background: #eee;
+  border-radius: 30px;
+  box-shadow: 0 7px 16px -13px #000;
+  border-top: solid 3px #d3d3d3 !important;
+  padding: 0 15px;
+  height: 40px !important;
+}
+.fic_common_modal_twenty_two .alternative-contact-popup-submit-btn{
+  border-radius: 30px !important;
+  border: solid 3px #fff !important;
+  box-shadow: 0 0 0 1px #1f264394 !important;
+  background: #03a84e !important;
+  width: 130px !important;
+}
+img.num_form_top_hover{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 170px;
+  display: block !important;
+}
+img.num_form_bottom_hover{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 130px;
+  display: block !important;
+}
+.fic_common_modal_twenty_two button.close span {
+  position: relative;
+  top: 0;
+  color: #fff;
+}
+
+@media (max-width: 767px){
+.fic_common_modal_twenty_two .modal-dialog{
+  padding: 0 15px;
+}
+}

@@ -1,0 +1,843 @@
+.common_class{
+    float:left;
+    width:100%;
+}
+.one{
+    background-color:#CCFDC8;
+    padding: 45px 0;
+}
+.two, .five, .documents_new{
+    padding: 45px 0;   
+}
+.four, .seven, .eight, .new_block9, .six, .green_sub_heading, .new_section, .new_section_two{
+    margin-top:40px;
+}
+.one_left h1 .span_color, .new_common_heading h2 span, .common_heading h2 span, .h5_sub_heading {
+    color: #F06906;
+}
+.green_sub_heading h5{
+    color:#000;
+    font-size:26px;
+    text-align: center;
+    position: relative;
+}
+.green_sub_heading h5::after{
+    height: 3px;
+    position: absolute;
+    content: "";
+    bottom: -6px;
+    background-color: #18ba60;
+    border-radius: 2px;
+    left: 50% !important;
+    transform: translate(-50%, 10%) !important;
+    width: 100px;
+}
+.h5_sub_heading{
+    font-size:26px;
+    text-align: center;
+    margin-top:25px;
+}
+.ul_li_block {
+    margin-top: 15px;
+}
+.ul_li_block .common_button_block {
+    width: 150px;
+}
+.span_block {
+    display: block;
+}
+.one_left h1 {
+    color:#000000;
+    font-size:35px;
+}
+.one_left_inner{
+    margin:25px 0;
+}
+.one_left_inner p{
+    color:#000000;
+    font-size:16px;
+}
+.new_ul_li li{
+    font-size: 16px;
+    color: #000;
+    position: relative;
+    margin-bottom: 17px;
+    padding-left: 29px;
+    list-style: none;
+}
+.new_ul_li{
+margin:25px 0;
+column-count: 1;
+}
+.new_ul_li li::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: url(https://www.onlinelegalindia.com/images/trademark-registration/trademark/tick.png);
+    overflow: auto;
+}
+.form_block_left_inner_holder {
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.form_block_left_inner_left_holder {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    align-items: center;
+    grid-gap: 15px;
+}
+.form_block_left_inner_left_holder_border {
+    border-right: 2px solid #000;
+}
+.fblil_right p {
+    color: #000;
+    font-size: 15px;
+    margin-top: 0;
+    font-weight: 600;
+}
+.fblil_right p span {
+    display: block;
+}
+.one_right{
+    box-shadow: 2px 1px 17px 0px rgba(0, 0, 0, 0.2);
+    padding: 25px 15px;
+    border-radius: 12px;
+    background-color: #fff;
+}
+.one_right h5{
+    text-align: center;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+}
+.form_one_right{
+    margin-top: 25px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.new_control {
+    height: 40px !important;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid #ccc;
+    color: #919191;
+}
+.new_control_select{
+    border-radius: 4px !important;
+    padding-left:10px;
+}
+.tsfb_started{
+    background-color: #129805;
+    height: 40px;
+    border-radius: 24px;
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 20px
+}
+.common_heading h2{
+    color:#000;
+    font-size:36px;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+}
+.common_heading h2:after{
+    height: 3px;
+    position: absolute;
+    content: "";
+    bottom: -6px;
+    background-color: #18ba60;
+    border-radius: 2px;
+    left: 50% !important;
+    transform: translate(-50%, 10%) !important;
+    width: 200px;
+}
+.new_common_heading h2{
+    color:#000;
+    font-size:36px;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+}
+.new_common_heading h2:after{
+    height: 3px;
+    position: absolute;
+    content: "";
+    bottom: -6px;
+    background-color: #F06906;
+    border-radius: 2px;
+    left: 50% !important;
+    transform: translate(-50%, 10%) !important;
+    width: 200px;
+}
+.two_text_block{
+    text-align: center;
+}
+.two_p{
+    margin-top:25px;
+}
+.two_text_block p{
+    font-size:16px;
+    color:#000;
+    line-height: 27px;
+}
+.common_subheading h4{
+    font-size:22px;
+    color:#000;
+    font-weight: bold;
+}
+.span_one{
+    color:#129805;
+    font-size:22px;
+    font-weight: bold;
+}
+.padding_left{
+    padding-left:0;
+}
+.three_inner{
+    margin-top:10px;
+}
+.three_inner_right_p{
+    font-size:16px;
+    color:#000;
+}
+.three_inner_right_text{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.three_inner_right_text h3{
+    font-size:18px;
+    color:#000;
+    font-weight: 600;
+}
+.three_inner_right_text p, .common_subheading p{
+    font-size:16px;
+    color:#000;
+    margin-top:5px;
+}
+.five_inner_block{
+    border-radius: 12px;
+    border: 1px solid #EBEBEB;
+    box-shadow: 2px 1px 17px 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top:35px;
+}
+.five_inner_header{
+    background-color:#129805;
+    padding: 20px 0;
+    text-align: center;
+}
+.five_inner_header p{
+    color:#fff;
+    font-size:18px;
+}
+.five_inner_header h4 i{
+    font-size:25px;
+    margin-right:4px;
+}
+.five_inner_header h4{
+    color:#fff;
+    font-size:28px;
+    font-weight: bold;
+}
+.five_inner_header h4 span{
+    font-size:16px;
+    margin-left:5px;
+    font-weight: 200;
+}
+.five_inner_body{
+    background-color:#fff;
+    padding: 20px 15px;
+}
+.five_inner_body ul li{
+    font-size:16px;
+    color:#000;
+    position: relative;
+    padding-left: 35px;
+    list-style: none;
+    margin-bottom:10px;
+}
+.five_inner_body ul li::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: url(https://www.onlinelegalindia.com/images/trademark-registration/trademark/tick.png);
+}
+.common_button_block{
+    background-color: #129805;
+    border: none;
+    height: 40px;
+    border-radius: 30px;
+    width:100%;
+    color:#fff !important;
+    font-size:16px;
+}
+.five_inner_body ul{
+    height:120px;
+}
+.heading_p{
+    margin-top:20px;
+    text-align: center;
+    color:#000;
+    font-size:16px;
+}
+.six_inner_block{
+    border:1px solid #000;
+    border-radius: 9px;
+    background-color:#FAF9F6;
+    padding: 25px 15px;
+}
+.six_number h4{
+    font-size:60px;
+    color:#000;
+    font-weight: bold;
+    text-align: center;
+}
+.six_text{
+    height:60px;
+}
+.six_text p{
+    color:#000;
+    text-align: center;
+    font-size:16px;
+}
+.six_inner{
+    width:80%;
+    margin:0 auto;
+}
+.six_inner_block{
+    margin-top:25px;
+}
+.seven_a p{
+    text-align: center;
+    font-size:16px;
+    color:#000;
+}
+.seven_a{
+    margin-top:25px;
+    display:block;
+}
+.seven_a:hover{
+    text-decoration: none;
+}
+.eight_block{
+    display:grid;
+    grid-template-columns: 50px 1fr;
+    grid-gap:10px;
+    height:53px;
+}
+.eight_block_right{
+    display:flex;
+    align-items: center;
+}
+.eight_block_right p{
+    font-size:14px;
+    color:#000;
+    font-weight: 600;
+}
+.eight_block{
+    margin-top:25px;
+}
+.faq{
+    margin-top:30px;
+}
+.trade_mark_facebook_nine, .trade_mark_facebook_ten{
+    display:none;
+}
+.cons_sec1_itemBox {
+    height: 100%;
+    margin-bottom: 80px;
+}
+.infographic-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    height:345px;
+}
+.cons_sec1_clipWrapper {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.cons_sec1_clipWrapper .clip-1, .cons_sec1_clipWrapper .clip-2, .cons_sec1_clipWrapper .content {
+    position: absolute;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cons_sec1_clipWrapper .clip-1 {
+    height: 130px;
+    width: 130px;
+    aspect-ratio: 1;
+    z-index: 1;
+}
+.cons_sec1_clipWrapper .clip-2 {
+    border: 30px;
+    aspect-ratio: 1;
+    background: #129805;
+    z-index: 2;
+    width: 100px;
+    height: 100px;
+}
+.cons_sec1_clipWrapper .content {
+    /* width: 110px; */
+    height: 110px;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infographic-items h2 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 0;
+    color: #000000;
+    padding: 0 10px;
+}
+
+.cons_sec1_p {
+    height: 100%;
+}
+.infographic-items p {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    height:250px;
+    padding-top: 30px;
+    color: #000000;
+}
+.cons_sec1_itemBox{
+    border:1px solid #000;
+    border-radius: 9px;
+    background-color:#FAF9F6;
+    margin-top:90px;
+}
+.merging{
+    height: 30px;
+}
+.content h3{
+    font-size: 35px;
+}
+.new_cube_block9{
+    margin-top:30px;
+}
+.documents_new_inner_p{
+    text-align: center;
+    font-size:16px;
+    color:#000;
+    margin-top:35px;
+}
+.documents_new_inner_block h5{
+    font-size:18px;
+    color:#000;
+    font-weight:600;
+}
+.documents_new_inner_block{
+    margin-top:25px;
+}
+.documents_new_last_p p{
+    color:#000;
+    font-size:16px;
+}
+.new_ul_li99{
+    column-count: 2;
+}
+.new_ul_li99 li::after{
+    content: url(https://www.onlinelegalindia.com/images/nidhi-company-registration/tick-icon.png);
+}
+.new_ul_li99 li{
+    padding-left: 44px;
+}
+.gst_rdiobtn {
+    margin-bottom: 15px;
+    background: #eaeaea;
+    border-radius: 9px;
+    position: relative;
+    border: 3px solid #d6d6d6;
+}
+.price_active {
+    background: #e4ffe4 !important;
+    border: 2px solid #78e478 !important;
+}
+.gst_rdiobtn label {
+    width: 100%;
+    font-weight: 500;
+    padding: 10px;
+    margin-bottom: 0;
+}
+.gst_rdiobtn p {
+    position: absolute;
+    top: 11px;
+    right: 13px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #205622;
+}
+.gst_rdiobtn ul {
+    list-style: none;
+    display: inline-grid;
+    margin-left: 10px;
+    width: calc(100% - 104px);
+    margin: 0 0 0 10px;
+}
+.gst_rdiobtn ul li {
+    position: relative;
+    color: #000;
+}
+.gst_rdiobtn ul li:nth-child(1) {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: green;
+}
+.gst_rdiobtn:nth-child(3){
+    margin-bottom: 15px;
+    background: #eaeaea;
+    border-radius: 9px;
+    position: relative;
+    border: 3px solid #d6d6d6;
+}
+.gst_rdiobtn ul li::before {
+    content: '';
+    position: absolute;
+}
+.gst_rdiobtn ul li:nth-child(2) {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #000;
+}
+.three_block_inner_holder{
+    width:91%;
+    margin:0 auto;
+}
+.documents_new_inner_p99{
+    text-align: left;
+}
+.span_block{
+    display:block;
+}
+.two_p_block{
+    margin-top:0;
+}
+.documents_new_last_p{
+    margin-top:-34px;
+}
+.table_new_block{
+    padding-top: 30px;
+    width:60%;
+    margin:0 auto;
+}
+.new_section_inner{
+    width:80%;
+    margin:0 auto;
+}
+.td_one, .td_two{
+    width:50%;
+}
+.new_section_inner h5{
+color:#F06906;
+font-size:26px;
+text-align: center;
+}
+.table_one ul li{
+    list-style: none;
+    font-size:16px;
+    color:#000;
+    margin-bottom:10px;
+}
+.row_block{
+    margin-top:40px;
+}
+.three_inner_right_text99{
+    width:100%
+}
+#captcha_code{
+    height:45px;
+}
+.font_weight{
+    font-weight: 600;
+}
+.span_down{
+    display:block;
+}
+@media screen and (max-width: 767px){
+    #captcha_code {
+        width: 46%;
+        height:38px;
+    }
+    .three_block_inner_holder{
+        width:100%;
+    }
+    .one_left h1{
+        font-size:25px;
+        text-align: center;
+    }
+    .one,.two, .five{
+        padding: 25px 0;
+    }
+    .four, .seven, .eight {
+        margin-top: 25px;
+    }
+    .one_left_inner p{
+        text-align: center;
+    }
+    .new_ul_li{
+        column-count: 1;
+    }
+    .form_block_left_inner_holder{
+        grid-template-columns: 1fr;
+    }
+    .form_block_left_inner_left_holder_border{
+        border-right:none;
+    }
+    .fblil_right p{
+        font-size:14px;
+    }
+    .common_heading h2{
+        font-size:22px;
+        text-align: left;
+    }
+    .common_heading h2:after{
+        left: 102px !important;
+    }
+    .new_custom_container{
+        padding: 0 12px;
+    }
+    .new_common_heading h2{
+        text-align: left;
+        font-size:22px;
+    }
+    .documents_new_inner_p{
+        text-align: left;
+    }
+    .new_common_heading h2:after{
+        left:102px !important;
+    }
+    
+    .documents_new_inner_block h5 span{
+        display:block;
+        margin-top: -15px;
+    }
+    .advantages_new h2::after{
+        left: 112px !important;
+    }
+    .common_subheading_responsive, .heading_p{
+        text-align: left;
+    }
+    .two_text_block p{
+        text-align: left;
+    }
+    .advantages{
+        padding-left: 12px;
+    }
+    .custom_container{
+        padding: 0 12px;
+    }
+    .new_ul_li{
+        margin-bottom:0;
+    }
+    .padding_left{
+        padding-left:15px;
+    }
+    .common_subheading_responsive, .heading_p{
+        padding: 0 15px;
+    }
+    .six_text {
+        height: 100px;
+    }
+    .seven_a p{
+        margin-top:5px;
+        font-size:14px;
+    }
+    .md_section{
+        margin-top:35px;
+    }
+    .five{
+        display:none;
+    }
+    .trade_mark_facebook_nine, .trade_mark_facebook_ten{
+        display:block;
+    }
+    .trade_mark_facebook_nine_inner h5 {
+        color: #000;
+        text-align: center;
+        font-size: 24px;
+        position: relative;
+    }
+    .trade_mark_facebook_nine_inner h5::after {
+        height: 3px;
+        position: absolute;
+        content: "";
+        bottom: -4px;
+        background-color: #18ba60;
+        width: 135px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .custom_nav_tab {
+        display: flex;
+        overflow-y: scroll;
+        border-bottom: none;
+        margin-top: 10px;
+    }
+    .custom_nav_tab > li > a{
+        color:#000;
+        font-size:14px;
+        white-space: nowrap;
+        }
+        .custom_nav_tab > li.active > a, .nav-tabs > li.active > a:focus, .custom_nav_tab > li.active > a:hover{
+        background-color:#129805;
+        color:#fff;
+        }
+        
+        .common_tab_body_holder{
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid #EBEBEB;
+            box-shadow: 2px 1px 17px 0px rgba(0,0,0,0.1);
+        }
+        .common_tab_body{
+            padding: 20px 8px;
+        }
+        .common_tab_body ul li{
+            font-size: 14px;
+            color: #000;
+            margin-bottom: 10px;
+            padding-left: 30px;
+            position: relative;
+            list-style: none;
+        }
+        .common_tab_body ul li::after{
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #F06906;
+            content: url(https://www.onlinelegalindia.com/images/trademark-registration/trademark/tick.png);
+            font-family: "Font Awesome 5 Free";
+            font-style: normal;
+            font-weight: 900;
+            font-size: 14px; 
+        }
+        .common_tab_body ul li i {
+            font-style: normal;
+            border: 2px solid #292929;
+            border-radius: 30px;
+            padding: 6px 4px;
+            color: #292929;
+            font-weight: 900;
+            font-size: 11px;
+        }
+        .trade_mark_facebook_nine {
+            background-color: #FAF9F6;
+            padding: 25px 0 0 0;
+            margin-bottom: 35px;
+        }
+        .custom_container99{
+            padding: 0 15px;
+        }
+        .common_tab_body_heading {
+            text-align: center;
+            background-color: #129805;
+            padding: 15px 0;
+        }
+        .common_tab_body_heading h5 {
+            color: #fff;
+            font-size: 18px;
+        }
+        .common_tab_body_heading h6 {
+            color: #fff;
+            font-size: 25px;
+        }
+        .common_tab_body_heading h6 i {
+            margin-right: 4px;
+            font-size: 23px;
+        }
+        .common_tab_body_heading h6 span{
+            font-size:18px;
+            font-weight: 200;
+            color:#fff;
+        }
+        .six{
+            margin-top:35px;
+        }
+        .common_tab_body  ul{
+            height:95px;
+        }
+        .custom_row{
+            display:grid;
+        }
+        .col_one{
+            order:2;
+        }
+        .col_two{
+            order:1;
+        }
+        .one_left{
+            margin-top:20px;
+        }
+        .six_inner{
+            width:100%;
+        }
+        .six_inner_block{
+            padding: 15px 9px;
+        }
+        .six_number h4{
+            font-size:40px;
+        }
+        .six_text p{
+            font-size:14px;
+        }
+        .new_block_heading_block h2::after{
+            height: 3px;
+            position: absolute;
+            content: "";
+            bottom: -6px;
+            background-color: #18ba60;
+            border-radius: 2px;
+            left: 50% !important;
+            transform: translate(-50%, 10%) !important;
+            width: 200px;
+    }
+    .new_block_heading_block h2{
+        text-align: center;
+    }
+    .h5_sub_heading, .green_sub_heading h5{
+        text-align:left;
+    }
+    .green_sub_heading h5::after{
+        left: 1% !important;
+        transform: translate(-1%, 10%) !important;
+    }
+    .table_new_block{
+        width:100%;
+    }
+    .three_inner_right_text, .new_section_inner{
+        width:100%;
+    }
+    .new_responsive_padding{
+        padding: 0;
+    }
+}
+@media screen and (max-width: 351px){
+    .seven_a p{
+        font-size:13px;
+    }
+}
+@media screen and (max-width: 330px){
+    .seven_a p{
+        font-size:12px;
+    }
+}

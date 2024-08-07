@@ -1,0 +1,449 @@
+#contact {background: rgb(249, 249, 249);padding: 25px;}
+#contact {margin-top: 40px;border-radius: 10px;}
+#contact h3 {display: block;font-size: 20px;font-weight: bold;margin-bottom: 16px;}
+#register #first_step fieldset {min-width: auto;}
+/*fieldset {min-width: 100%;width: 100%;margin: 0px 0px 10px;padding: 0px;outline: none;border-width: medium !important;border-style: none !important;border-color: initial !important;border-image: initial !important;}*/
+#register #contact {box-shadow: rgba(42, 67, 113, 0.15) 8px 8px 30px 0px;display: inline-table;}
+#contact {box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 20px 0px, rgba(0, 0, 0, 0.24) 0px 5px 5px 0px;background: rgb(249, 249, 249);padding: 25px;}
+#register .btn-success{width: 290px;margin: 0 auto;float: none !important;
+height: 48px;font-size: 20px;border-radius: 8px;}
+.button_box{text-align: center;}
+#register #first_step fieldset:nth-child(6) {width: 32%;float: left;margin-right: 0px;}
+#register #first_step fieldset:nth-child(4), 
+#register #first_step fieldset:nth-child(5), 
+#register #first_step fieldset:nth-child(6) {width: 32%;float: left;margin-right: 9px;}
+#register #first_step fieldset:nth-child(6) {margin-right: 0px;}
+
+.mobile_version{display: none}
+.desktop_version{display: block}
+.banner {margin-bottom: 30px;}
+.banner_image_text {width: 100%;float: left;position: relative;padding: 0px 20px;}
+.banner_image_text h4 span {font-size: 45px;font-family: Roboto, sans-serif;font-weight: bold;display: inline-table;float: left;width: 100%;margin-bottom: 12px;}
+.banner_image_text p {width: 100%;float: left;color: rgb(226, 255, 219);line-height: 24px;font-size: 15px;font-weight: normal;margin-bottom: 8px;}
+.banner_image_text h5 {width: 100%;float: left;color: rgb(255, 255, 255);line-height: 24px;font-size: 17px;font-weight: 600;padding: 10px 0px;}
+.banner_image_text ul {float: left;width: 100%;list-style: none;margin: 0px;padding: 0px;}
+.banner_image_text li {float: left;color: rgb(180, 233, 255);width: 20%;text-align: center;line-height: 16px;}
+.banner_image_text li i {width: 100%;display: inline-table;margin-bottom: 8px;}
+.banner_image_text li i svg {width: 41px;fill: rgb(184, 234, 255);height: 40px;}
+.banner_image_text h4 {font-size: 31px;width: 100%;float: left;color: rgb(255, 255, 255);line-height: 39px;margin-top: 44px;font-weight: normal;}
+
+#allServiceLink {width: 100%;float: left;display: inline-table;margin-top: 90px;box-shadow: rgba(0, 0, 0, 0.3) 0px -12px 27px;position: relative;height: 50px;padding: 15px 0px;background: rgb(239, 105, 6);transition: all 200ms linear 0s;border-radius: 180px;}
+#allServiceLink ul {list-style: none;margin: 0px auto;padding: 0px 0;width: auto;float: none;display: inherit;}
+#allServiceLink ul li {display: inline-table;width: auto;}
+#allServiceLink .serviceActive {text-decoration: none;}
+#allServiceLink ul li a {margin-right: 0px;color: rgb(255, 255, 255);display: inline-table;background: none;padding: 3px 7px;border-radius: 20px;}
+
+/*What is a Digital Signature open
+*/
+.whatdsc{width: 100%;float: left;margin:0px 0 0 0; }
+.whatdsc p{text-align: left !important;}
+.whatdsc_inner{display: table;margin: 20px auto 0;width: 80%;}
+.whatdsc .whatdsc_inner h2{text-align: left;}
+.whatdsc .whatdsc_inner h2:after{margin: 14px 0 0 0;}
+.whatdsc_det{width: 100%;float: left;margin:0;}
+#whatDsc{width: 100%;float: left;margin: 100px 0 100px 0;}
+.whatdsc_det p{font-size: 15px;color: #254e25;margin-bottom: 19px;font-weight: 600;}
+.whatdsc_det ul{list-style: none;padding: 0;margin: 0}
+.whatdsc_det ul li{font-size: 15px;margin-bottom: 14px;color: #404840;position: relative;padding: 0 0 0 30px;line-height:21px;float: left;width: 100%;}
+.whatdsc_det ul li:after{content: '';position: absolute;left: 0;width:14px;height: 12px;background-image: url(../images/bullet-arrow.svg);background-repeat: no-repeat;top: 6px;}
+
+
+/*What is a Digital Signature close*/
+
+/*Classes of Digital Signature Certificates open*/
+.dcClasses{width: 100%;float: left;margin-top:40px; }
+.dcClasses i {width: 100%;text-align: center;display: inline-table;font-size: 18px;    font-style: normal;}
+.dcClasses Span{width: 100%;display: inline-table;margin-bottom: 9px;    line-height:34px;}
+.dcClasses Span:last-child {width: 89px;height: 89px;background: #fda25f;display: inline-table;margin: 0 auto;
+text-align: center;font-size: 62px;border-radius: 90px;color: #fff;font-style: normal;line-height: 88px;}
+/*Classes of Digital Signature Certificates close*/
+
+/*When is Digital Signature required or mandatory open*/
+#dscMandatory{width: 100%;float: left;background:#efefef;}
+.dscMandatory_det{}
+.dscMandatory_det i{width: 80px;height: 90px;display: inline-block;position: relative;z-index: 0;}
+.dscMandatory_det i:after{
+content: '';display: block;width: 70px;height: 70px;background: #b3eab3;margin: 0;margin-left: auto;
+margin-right: 40px;border-radius: 22px;position: relative;z-index: -1;right: -30px;top: -80px;}
+.dscMandatory_det i svg{}
+.dscMandatory_det h3,.dcClasses h3{font-size: 18px;color: #000;margin-bottom: 19px;font-weight: 500;text-align: center;
+line-height: 27px;}
+.dscMandatory_det p,.dcClasses p,.whatdsc p{font-size: 15px;text-align: center;margin-bottom: 14px;color: #404840;
+position: relative;padding: 0 0 0 0px;line-height: 21px;float: left;width: 100%;}
+
+/*When is Digital Signature required or mandatory close*/
+/*Classes of Digital Signature Certificates*/
+.subjectUser_img{width:450px;float: none;height:300px;margin: 0 auto;}
+.subjectUser_img img{width: 100%;height: 100%;object-fit: cover;border-radius: 10px;    
+    -webkit-box-shadow: 30px 0px 60px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 30px 0px 60px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 30px 0px 60px 0 rgba(0, 0, 0, 0.3);}
+.subjectUser_img:after{
+    background-image: url(../images/dots.svg);
+    background-repeat: no-repeat;
+    content: '';
+    width: 180px;
+    height: 160px;
+    position: relative;
+    top: -382px;
+    display: inline-table;
+    right: -340px;
+    z-index: -1;
+}
+/*Classes of Digital Signature Certificates*/
+.product-summary {
+   padding: 13px 20px 5px;
+    color: #015801;
+    border-radius: 5px;
+    margin: -1px;
+    background: #12630a;
+    background: -moz-linear-gradient(39deg, #5ca509 0%, #12630a 100%);
+    background: -webkit-linear-gradient(39deg, #5ca509 0%, #12630a 100%);
+    background: linear-gradient(39deg, #5ca509 0%, #12630a 100%);
+    margin-bottom: 10px;
+    background: #e4ffe4;
+    border: 3px solid #78e478;
+}
+.product-summary .classproduct {
+   font-size: 20px;
+   font-weight: 600;
+    display: inline-table;
+}
+.product-summary .certificateuser {
+   font-size: 13px;
+   margin-bottom: 2px;
+   margin-top: 2px;
+   width: auto;
+}
+.product-summary .cert-amount .rs {
+    font-size: 18px;
+}
+.product-summary .cert-amount .product_price {
+   font-size: 24px;
+   font-weight: bold;
+   cursor: pointer;
+}
+#contact-submit {
+   background: #ef6906;
+}
+.radio-inline {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+    width: 100px;
+}
+
+/* Hide the browser's default radio button */
+.radio-inline input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 23px;
+  width: 23px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radio-inline:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radio-inline input:checked ~ .checkmark {
+  background-color: #f06906;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-inline input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-inline .checkmark:after {
+    left: 8px;
+    top: 2px;
+    width: 8px;
+    height: 15px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}   
+    .custom_radio_label{
+        display: flex;
+    }
+    .year_box{width: 100%;float: left;}
+
+ /* When is Digital Signature required or mandatory open*/ 
+
+.dscM_det_box{padding: 55px 25px 15px 25px;-webkit-box-shadow: 0px 0px 40px 0 rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 0px 0px 40px 0 rgba(0, 0, 0, 0.1);box-shadow: 0px 0px 40px 0 rgba(0, 0, 0, 0.1);
+float: left;min-height: 365px;background: #fff;text-align: center;border-radius: 10px;}
+.m-b{margin-bottom: 30px}
+
+
+.dscMandatory_det i{width: 80px;height: 90px;display: inline-block;position: relative;z-index: 0;}
+.docRequ_inner{text-align: center;}
+
+/*When is Digital Signature required or mandatory open*/
+
+/*Documents Required open*/
+#docRequ{background: linear-gradient(39deg, rgb(92, 165, 9) 0%, rgb(18, 99, 10) 100%);}
+#docRequ h3{color: #fff;font-size: 17px;}
+#docRequ i{width: 113px;height: 110px;display: inline-block;position: relative;z-index: 0;}
+#docRequ i svg{fill:#fff;}
+#docRequ i svg rect {stroke: #fff;}
+#docRequ .block_heading h2 {color: #fff;}
+ 
+ /*Documents Required close*/
+/*We Are Associated With open*/
+.associated_dsc h2 {
+	text-align: center;
+	width: 100%;
+	font-size: 16px;
+	display: inline-table;
+	font-weight: 600;
+	margin-top: 25px;
+}
+#associated {
+    padding: 0 !important;
+    width: 100%;
+    float: left;
+    background: none;
+}
+
+#associated .associated_dsc .owl-item .item {
+	width: 155px;
+	cursor: pointer;
+	border-radius: 4px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .08), 0 0 4px 0 rgba(0, 0, 0, .08);
+	background-color: #fff;
+	cursor: pointer;
+	transition: .35s cubic-bezier(.39, .58, .57, 1);
+	margin: 12px auto 28px;
+	padding: 8px;
+}
+
+/*We Are Associated With close*/
+
+/*Advantages open*/
+.advantage_right {}
+.advantge_box {width: 100%;float: left;margin-bottom: 36px;text-align: center;padding: 0 5px;}
+.advantge_box i {width: 60px;height: 60px;margin-right:0px;background: #f3f3f3;border-radius: 150px;box-shadow: 0 6px 5px rgba(0, 0, 0, 0.1);padding: 15px;display: inline-table;}
+.advantge_box h4 {color: #485d51;font-family: 'Roboto', sans-serif;font-weight: 500;margin-top: 26px;
+float: left;width: 100%;text-align: center;}
+.advantge_box p {font-size: 16px;font-family: 'Roboto', sans-serif;width: calc(100% - 87px);
+color: #67756d;font-weight: normal;width: 100%;float: left;text-align: center;}
+/*Advantages close*/
+
+/*Our Popular Services open*/
+#popularServices{background:#efefef;}
+.poservi{width: 100%;float: left}
+.poservi a{transition: all linear 300ms;text-decoration: none;display: inline-table;margin: 0 auto;position: relative;left: 0;padding: 20px 0 10px 0;width: 100%;top: 0;}
+.poservi a:hover i > svg{fill: #5cb85c}
+.poservi a:hover p{color: #5cb85c;text-decoration: none}
+.poservi a:hover, .poservi a:focus {
+    color: #18ba60;
+    text-decoration: none;
+    outline: 0;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    background: #fbfbfb;
+    padding: 20px 0 10px 0;
+    border-radius: 20px;
+    top: -20px !important;
+    position: absolute !important;
+    border: 1px solid #4CAF50;
+    box-shadow: 0 8px 8px rgba(0,0,0,0.1);
+}
+
+.poservi ul{list-style: none;padding: 0;display: inline-table;width: 100%;}
+.poservi ul li{width: 33%;float: left;font-size: 65px;text-align: center;border-right: 1px solid #d8d8d8;}
+.poservi ul li:last-child{border-right:none;}
+.poservi ul li:nth-child(3){border-right:none;}
+.poservi ul li:nth-child(1),.poservi ul li:nth-child(2),.poservi ul li:nth-child(3){margin-bottom: 30px;}
+
+.poservi a i{width: 65px;text-align: center;display: inline-table;margin-bottom: 15px;height: 75px;}
+.poservi a i svg{width: 100%; fill:}
+.poservi a i svg g rect{stroke:#fff}
+.poservi a p{text-align: center;font-size: 16px;color: #484848;font-weight: 600;}
+.pop_inner_box{text-align: center;}
+.gap{margin-bottom: 60px;}
+
+/*Our Popular Services close*/
+
+/*faq start*/
+
+#ques_ans .panel-group {margin-bottom: 20px;display: inline-table;width: 100%;}
+.faq_box{text-align: center;}
+.nav-item-inner{margin-bottom: 20px;background: #fff;box-shadow: 8px 8px 25px 0px rgba(42, 67, 113, 0.15);
+-webkit-box-shadow: 8px 8px 25px 0px rgba(42, 67, 113, 0.15);-moz-box-shadow: 8px 8px 25px 0px rgba(42, 67, 113, 0.15);
+border-radius: 28px;-webkit-border-radius: 28px;-moz-border-radius: 28px; }
+   
+.description {text-align: center;}
+.nav-wrapper {width: 100%;margin: auto;display: inline-table;}
+/* jQuery Accordion Navigation Menu */
+.nav-item {border-top: 1px solid rgba(255, 255, 255, 0.25);}
+.nav-item:first-child {border-top: none;}
+.nav-item-inner > a {display: block;cursor: pointer;display: block;overflow: hidden;font-weight: 500;color: #1a1b1e;padding: 13px 34px 13px 25px;border-radius: 28px;-webkit-border-radius: 28px;-moz-border-radius: 28px;
+font-size: 16px;line-height: 1.875;font-weight: 400;text-align: left;-webkit-transition: all 0.3s linear;-moz-transition: all 0.3s linear;-o-transition: all 0.3s linear;
+-ms-transition: all 0.3s linear;transition: all 0.3s linear;text-decoration: none;}
+.nav-item-inner > a:hover {color: #5cb85c;}
+.nav-item-inner-heading {position: relative;padding: .75rem;padding-right: 2.5rem;font-weight: 700;}
+.nav-item-inner-heading:focus {opacity: 1;}
+.nav-item-inner-heading.minus:after, .nav-item-inner-heading.plus:after {
+    position: absolute;
+    top: 50%;
+    right: .75rem;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 30px;
+    text-align: center;
+    font-family: FontAwesome;
+    font-style: normal;
+    color: #fff;
+    background: #5cb85c;
+    height: 30px;
+    border-radius: 20px;
+    line-height: 29px;
+    font-size: 24px;
+}
+.nav-item-inner-heading.minus{
+    color: #5cb85c;
+}
+.nav-item-inner-heading.minus:after {
+  content: url(../../images/minus.svg);
+}
+.nav-item-inner-heading.plus:after {
+  content: url(../../images/plus.svg);
+}
+.nav-sub-list {
+    color: #606060;
+    font-size: 16px;
+    line-height: 1.875;
+    font-weight: 400;
+    display: none;
+}
+.nav-sub-list-inner {
+      padding: 0 .75rem 2.75rem;
+}
+.nav-sub-item {
+    padding: 0 25px 0 18px;
+    text-align: left;
+    line-height: 27px;
+}
+.nav-sub-item:first-child {
+  margin-top: 0;
+}
+
+.owl-item .item{width: 126px;cursor: pointer;border-radius: 4px;box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .08), 0 0 4px 0 rgba(0, 0, 0, .08);background-color: #fff;cursor: pointer;transition: .35s cubic-bezier(.39, .58, .57, 1);
+margin: 12px auto 28px;padding: 8px;}
+.new_digital_signature_h1 h1{
+  width: 100%;
+    float: left;
+    text-align: left;
+    font-size: 26px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 53px;
+    position: relative;
+}
+.new_digital_signature_h1 h1::after{
+  content: '';
+  display: block;
+  width: 75px;
+  height: 6px;
+  background: #5cb85c;
+  border-radius: 3px;
+  margin: 14px 0 0 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute !important;
+  transform: translate(-37% , 0);
+  left: 37% !important;
+  bottom: -10px;
+}
+/*faq end*/
+@media screen and (max-width: 768px) { 
+  .new_digital_signature_h1 h1::after{
+    top: auto;
+    bottom: -10px !important;
+    margin: 14px 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(-50% , 0);
+    left: 50% !important;
+  }
+  .new_digital_signature_h1 h1{
+    font-size: 20px;
+    text-align: center;
+
+  }
+   .dscMandatory_det .block_heading h2::after, .dcClasses .block_heading h2::after{top: 52px;} 
+.banner {height: auto;padding: 0 0 40px 0;}    
+.banner_image_text {padding: 0px 5px;}
+.banner_image_text h4 {font-size: 25px;line-height: 33px;margin-top: 29px;}   
+.banner_image_text h4 span {font-size: 40px;}  
+.banner_image_text p {font-size: 16px;} 
+.emudra {width: 40px;top: 21px;}
+.mobile_version{display: block}
+.desktop_version{display: none}
+.subjectUser_img {width: 280px;margin-top: 50px;}
+.subjectUser_img:after{display: none}
+.extra_menu{display: none}
+.dscM_det_box{margin-bottom: 20px;}
+.whatdsc .pull-right{float: left !important}
+.block_heading h2{font-size:20px;}   
+.nav-item-inner > a {font-size: 14px;line-height: 18px;padding: 13px 41px 13px 25px;}
+.nav-list {padding-left: 0;margin: 0}
+/*.process_section {min-height: auto;}*/
+#whatDsc {margin: 0px 0 100px 0;}
+.whatdsc .whatdsc_inner h2 {text-align: center;}
+.whatdsc .whatdsc_inner h2:after {margin: 14px 0 0;margin-left: auto;margin-right: auto;}
+.whatdsc p {text-align: center!important;}
+.subjectUser_img {width: 100%;margin-top: 50px;}
+#register #contact {display: inline-block;width: 100%;}
+#register .btn-success {width: 100%;}
+.banner_image_text li:nth-child(2){display: none}
+.banner_image_text li {
+    float: left;
+    color: rgb(180, 233, 255);
+    width: 50%;
+    text-align: center;
+    line-height: 16px;
+    min-height: 89px;
+    margin-bottom: 12px;
+} 
+#register #contact{margin-top: 10px;}
+.gap {margin-bottom: 0;}
+.pop_inner_box {margin-bottom: 30px;}
+.poservi a i {width: 55px;height: 65px;}
+.poservi a p {font-size: 14px;}
+#docRequ i{width: 100px;height: 110px;display: inline-block;position: relative;z-index: 0;}    
+}
+
+

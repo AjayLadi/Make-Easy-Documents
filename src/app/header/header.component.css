@@ -1,0 +1,45 @@
+a {
+    text-decoration: none;
+}
+
+.navmenu li::before {
+    position: absolute;
+    top: 18px;
+    left: -3px;
+    content: "";
+    height: 20px;
+    width: 0.5px;
+    background-color: #f06906;
+}
+
+.branding {
+    background-color: rgba(217, 210, 210, 0.947);
+}
+
+.navmenu.show {
+    display: flex;
+}
+
+.sub-menu {
+    height: 250px;
+    overflow-y: scroll;
+    padding-left: 150px;
+}
+
+#header .logo {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#header .logo a {
+    color: #fff;
+}
+
+#header .logo img {
+    max-height: 80px;
+}

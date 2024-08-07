@@ -1,0 +1,58 @@
+a {
+    text-decoration: none;
+}
+
+/* wp & calling tab */
+#myBtn {
+    position: fixed;
+    bottom: 70px;
+    right: 11px;
+    z-index: 99;
+    font-size: 25px;
+    border: none;
+    background-color: rgb(46, 203, 11);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 55px;
+    width: 55px;
+    box-shadow: 0 5px 5px #232323;
+    padding: 0px;
+    border-radius: 50%;
+}
+
+#wp_btn {
+    margin-left: 11px;
+    margin-top: 9px;
+    width: 35px;
+    height: 35px;
+}
+
+#myBtn1 {
+    position: fixed;
+    bottom: 70px;
+    /* right: 340px; */
+    left: 11px;
+    z-index: 99;
+    font-size: 25px;
+    border: none;
+    background-color: rgb(14, 90, 213);
+    color: white;
+    cursor: pointer;
+    height: 55px;
+    width: 55px;
+    box-shadow: 0 5px 5px #232323;
+    padding: 0px;
+    border-radius: 50%;
+}
+.linkss a{
+    color: #232323;
+}
+.footer-top{
+    /* background-color: rgb(230, 231, 231); */
+      background: -webkit-linear-gradient( rgba(158, 158, 158, 0.9), rgba(227, 227, 227, 0.9)), fixed center center;
+
+}
+.copyright{
+    /* background-color: rgb(208, 208, 208); */
+    background: -webkit-linear-gradient(rgba(227, 227, 227, 0.9), rgba(118, 118, 118, 0.9));
+}

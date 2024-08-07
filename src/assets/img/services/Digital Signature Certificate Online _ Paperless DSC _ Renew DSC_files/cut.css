@@ -1,0 +1,261 @@
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+/*header start*/
+.banner{
+    width: 100%;
+}
+
+.title-content {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 34px;
+}
+
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+    color: #f1ecec;
+    text-decoration: none;
+    background-color: #385067;
+}
+
+/*header end*/
+
+/*form open*/
+#contact h3 {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.custom_dropdown label {
+    display: block;
+    padding: 15px 15px;
+    background: #a9ffae;
+    color: #000;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+}
+
+.custom_dropdown label:after {
+    content: '\25bc';
+    position: absolute;
+    right: 10px;
+    top: 14px;
+}
+
+.custom_dropdown label .gst_rdiobtn {
+    margin-bottom: 0;
+    background: transparent;
+    padding: 0;
+    border: 0;
+}
+
+.custom_dropdown label .gst_rdiobtn p {
+    top: 0px;
+}
+
+.custom_dropdown label .gst_rdiobtn ul {
+    display: block !important;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+}
+
+
+
+.custom_dropdown ul {
+    display: none;
+    margin: 0 0 8px 0px;
+    padding: 12px 0;
+    background: #a9ffae;
+}
+
+
+
+.custom_dropdown label ul li.selected {
+    padding: 0;
+}
+
+.custom_dropdown ul li:hover,
+.custom_dropdown ul li.selected {
+    color: #008000;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.custom_dropdown .editprice ul li:nth-child(1):hover {
+    background: transparent;
+}
+
+.custom_dropdown ul li ul {
+    background: #eaeaea;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+fieldset {
+    min-width: 100%;
+    width: 100%;
+    margin: 0px 0px 10px;
+    padding: 0px;
+    outline: none;
+    border-width: medium !important;
+    border-style: none !important;
+    border-color: initial !important;
+    border-image: initial !important;
+}
+
+.oli-validate-form #first_div span{
+    color: red;
+}
+
+/*form close*/
+
+
+/* form right section  startup india, Iso & Flipkart seller hub open*/
+
+.right-side-icons-div-2 {
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.right-side-icons-div-2 {
+    padding: 10px;
+}
+
+.services_box_bg .right-side-img-startupind {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.services_box_bg img {
+    display: block;
+    margin: auto;
+}
+
+.services_box_bg .right-side-img-title {
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    font-size: 13px;
+}
+
+.services_box_bg .right-side-img-desc {
+    text-align: center;
+    display: block;
+    font-size: 12px;
+}
+
+
+
+/* form right section  startup india, Iso & Flipkart seller hub close*/
+
+/*Comparison table for start business menu open*/
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #dbdbdb;
+    padding: 7px;
+    text-align: center;
+}
+
+/*price open*/
+
+.background_image{
+    background-image:  url("https://www.onlinelegalindia.com/images/fees_bg.webp") !important;
+/*    left: -74.5px;*/
+    box-sizing: border-box;
+    width: 100%;
+    height:auto;
+    margin-top: 35px;
+    padding: 0 ;
+    background-blend-mode: multiply;
+    
+}
+
+
+
+
+
+.benifts-heading{
+    color: white;
+    margin-top: 30px;
+    font-weight: 600;
+    font-family: "Poppins",sans-serif;
+    text-align: center;
+    font-size: 26px;
+}
+
+
+/*price close*/
+
+@media screen and (max-width: 600px){
+.table-overflow {
+    overflow: scroll;
+}
+.title, .block_heading h2 {
+    font-size: 19px;
+}
+.accordaion-main-div {
+        height: auto;
+    }
+.accordion-cus-head {
+        line-height: 24px;
+        font-size: 14px;
+        margin-left: 16px;
+        padding: 10px;
+    }
+.child-ans-text {
+        margin-left: 17px;
+    }
+.child-ans-div-1 {
+        margin-top: -11px;
+    }
+.title {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: #2e363a;
+    font-weight: 600;
+    }
+
+
+
+.mob_view {
+        display: block !important;
+    }
+    .desk_view {
+        display: none;
+    }
+
+}
+
+/*Comparison table for start business menu close*/
+
+
