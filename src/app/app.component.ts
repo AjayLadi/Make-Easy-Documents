@@ -8,7 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'md';
 
- onActive(){
-  window.scroll(0,0);
- }
+//  onActive(){
+//   window.scroll(0,0);
+//  }
+
+
 }

@@ -1,14 +1,11 @@
-
 <!-- Page Title -->
 <div id="pagetital" class="page-title" data-aos="fade">
     <div class="container d-lg-flex justify-content-between align-items-center">
         <h1 class="mb-2 mb-lg-0">PAN Services (UTI / NSDL) </h1>
         <nav class="breadcrumbs">
             <ol>
-                <li><a routerLink="/pan" class="active">New PAN Card</a></li>
-                <li><a routerLink="/pan">PAN Update</a></li>
-                <li><a routerLink="/pan">Company PAN Card </a></li>
-                <li><a routerLink="/pan">Adhar PAN Linking</a></li>
+                <li><a routerLink="/home" >Home</a></li>
+                <li><a routerLink="/pan" class="active">PAN Card Services</a></li>
             </ol>
         </nav>
     </div>
@@ -25,78 +22,31 @@
                         <img class="img-fluid" src="assets/img/services/pann.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                    <form action="career.php" method="post" role="form" class="info" enctype="multipart/form-data">
-                        <div class="row">
-                            <div class="form-group col-md-4">
-                                <label for="name">First Name</label>
-                                <input type="text" name="firstname" class="form-control" id="name" required>
-                            </div>
-                            <div class="form-group col-md-4">
-                                <label for="middlename">Middle Name</label><br>
-                                <input type="text" name="middlename" class="form-control" id="middlename" required>
-                            </div>
-                            <div class="form-group col-md-4">
-                                <label for="lastname">Last Name</label><br>
-                                <input type="email" class="form-control" name="lastname" id="lastname" required>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-group col-md-6">
-                                <label for="email">Your Email</label><br>
-                                <input type="email" class="form-control" name="email" id="email" required>
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="address">Address</label><br>
-                                <input type="text" name="address" class="form-control" id="address" required>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-group col-md-4">
-                                <label for="city">City</label><br>
-                                <input type="text" name="city" class="form-control" id="city" required>
-                            </div>
-                            <div class="form-group col-md-4">
-                                <label for="state">State</label><br>
-                                <input type="text" name="state" class="form-control" id="state" required>
-                            </div>
-                            <div class="form-group col-md-4">
-                                <label for="zipcode">Pincode</label><br>
-                                <input type="number" class="form-control" name="zipcode" id="zipcode" required>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-group col-md-6">
-                                <label for="number">Mobile Number</label><br>
-                                <input type="number " class="form-control" name="number" id="number" required>
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="dob">Date of Birth</label><br>
-                                <input type="date" name="dob" class="form-control" id="dob" required>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-group col-md-7">
-                                <label for="photo">Identy Size photo </label><br>
-                                <input type="file" name="photo" class="form-control" id="photo">
-                            </div> <br>
-                            <div class="form-group col-md-5">
-                                <button
-                                    style="font-family: Arial, Helvetica, sans-serif; letter-spacing: 2px;"
-                                    type="submit" class="submitbtn btn btn-success">SUBMIT</button>
-                            </div>
+                <div class="col-lg-6">
+                    <div class="banner_image_text"> <br>
+                        <p> &nbsp;&nbsp; At our company, we streamline the process of opening a PAN card with a focus on simplicity
+                            and efficiency. <br> By providing clear, step-by-step instructions and ensuring all necessary
+                            documentation is easily accessible, we make the entire procedure hassle-free. <br> Our team is
+                            dedicated to assisting you with each requirement, from filling out forms to submitting the
+                            necessary documents, ensuring that you can complete your PAN card application smoothly and
+                            quickly. <br> Our approach is designed to minimize paperwork and maximize convenience, allowing
+                            you to focus on your core tasks without getting bogged down by administrative details.
 
+                        </p>
+                        <div class="button-container">
+                            <button type="button" routerLink="/individual_pan" class="subform centered-button">Apply for
+                                Individual Pan Card  </button> <br>
                         </div>
-
-
-                        <!-- <button style="background-color: #a31803; font-family: Arial, Helvetica, sans-serif; letter-spacing: 2px;" type="submit"
-                                       class="btn btn-success">SUBMIT</button> -->
-
-                    </form>
+                        <div class="button-container">
+                            <button type="button" routerLink="/company_pan" class="subform centered-button">Apply for
+                                Comapany / Trust (संस्था) Pan Card </button> <br>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
                 </div>
             </div>
         </div>
     </section><!-- End Contact Section -->
 
 </main><!-- End #main -->
-

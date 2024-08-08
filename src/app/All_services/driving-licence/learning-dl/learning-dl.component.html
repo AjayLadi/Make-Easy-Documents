@@ -23,15 +23,9 @@
                 <form action="" method="post" role="form" class="info">
                     <div class="row">
                         <div class="form-group col-md-4">
-                            <label for="vehicleType" class="required">Select Vehicle Type</label>
-                            <select name="vehicleType" class="form-control" id="vehicleType" required>
-                                <option value="" disabled selected>- - - </option>
-                                <option value="vehicle1">Motor Cycle </option>
-                                <option value="vehicle2">Two Wheeler </option>
-                                <option value="vehicle3">Four Wheeler </option>
-                                <option value="vehicle4">Four Wheeler TR </option>
-                                <option value="vehicle5">Four + Two Wheeler </option>
-                            </select>
+                            <label for="fullName" class="required">Full Name </label>
+                            <input type="text" name="fullName" placeholder=" - - -  " class="form-control" id="fullName"
+                                required>
                         </div>
                         <div class="form-group col-md-4">
                             <label for="state" class="required">Select State</label>
@@ -96,10 +90,15 @@
                     </div>
                     <div class="row">
                         <div class="form-group col-md-4">
-                            <label for="fullName" class="required">Full Name </label>
-                            <input type="text" name="fullName" placeholder=" - - -  " class="form-control" id="fullName"
-                                required>
-
+                            <label for="vehicleType" class="required">Select Vehicle Type</label>
+                            <select name="vehicleType" class="form-control" id="vehicleType" required>
+                                <option value="" disabled selected>- - - </option>
+                                <option value="vehicle1">Motor Cycle </option>
+                                <option value="vehicle2">Two Wheeler </option>
+                                <option value="vehicle3">Four Wheeler </option>
+                                <option value="vehicle4">Four Wheeler TR </option>
+                                <option value="vehicle5">Four + Two Wheeler </option>
+                            </select>
                         </div>
                         <div class="form-group col-md-4">
                             <label for="fatherOrHusbandFullName" class="required">Father / Husband Full Name</label>
@@ -114,35 +113,37 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="form-group col-md-4">
-                            <label for="dob">Date of Birth</label>
-                            <input type="date" name="dob" placeholder="Date of Birth" class="form-control" id="dob"
+                        
+                        <div class="form-group col-md-3">
+                            <label for="dateOfBirth">Date of Birth</label>
+                            <input type="date" name="dateOfBirth" placeholder="Date of Birth" class="form-control" id="dateOfBirth"
                                 required>
                         </div>
 
-                        <div class="form-group col-md-4">
+                        <div class="form-group col-md-3">
                             <label for="qualification" class="required">Qualification</label><br>
                             <input type="text" name="qualification" placeholder=" - - - " class="form-control"
                                 id="qualification" required>
                         </div>
-                        <div class="form-group col-md-4">
-                            <label for="identyMark">Identification Marks</label><br>
+                        <div class="form-group col-md-3">
+                            <label for="identificationMarks">Identification Marks</label><br>
                             <input type="text" class="form-control" placeholder=" - - - " name="identyMark"
                                 id="identyMark" required>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="form-group col-md-2">
+                        <div class="form-group col-md-3">
                             <label for="bloodGroup">Blood Group</label><br>
-                            <input type="number " class="form-control" placeholder=" - - - " name="bloodGroup"
+                            <input type="text " class="form-control" placeholder=" - - - " name="bloodGroup"
                                 id="bloodGroup" required>
                         </div>
-                        <div class="form-group col-md-3">
+                    </div>
+                    <div class="row">
+                        
+                        <div class="form-group col-md-4">
                             <label for="emergencyContact" class="required">Emergency Number</label><br>
-                            <input type="number" name="emergencyContact" placeholder="- - - " class="form-control" id="emergencyContact"
+                            <input type="text" name="emergencyContact" placeholder="- - - " class="form-control" id="emergencyContact"
                                 required>
                         </div>
-                        <div class="form-group col-md-3">
+                        <div class="form-group col-md-4">
                             <label for="email">Email Id</label><br>
                             <input type="email" name="email" placeholder="- - - " class="form-control" id="email">
                         </div> <br>
@@ -172,26 +173,30 @@
                         </div>
                     </div> <br>
                     <div class="row">
-                        <div class="form-group col-md-3">
-                            <label for="addressproof" class="required">Adress Proof (<span style="font-size: 12px;">Adhar , PAN </span>
-                                )</label>
-                            <input type="file" name="addressproof" placeholder=". . ." class="form-control" id="addressproof" required>
-                            <div class="file-preview" id="filePreview"></div>
+                        <div class="form-group col-md-4">
+                            <label for="addressProof" class="required">Address Proof (Adhar/Pan)
+                            </label>
+                            <input type="file" name="addressProof" placeholder=". . ." class="form-control"
+                                id="addressProof" required>
                         </div>
-                        <div class="form-group col-md-3">
-                            <label for="photo" class="required">Passport-size Photo</label>
-                            <input type="file" name="photo" placeholder=". . ." class="form-control" id="photo" required>
+                        <div class="form-group col-md-4">
+                            <label for="passportPhoto" class="required">Passport Photo
+                            </label>
+                            <input type="file" name="passportPhoto" placeholder=". . ." class="form-control"
+                                id="passportPhoto" required>
                         </div>
-                        <div class="form-group col-md-3">
+                        <div class="form-group col-md-4">
                             <label for="signature">Signature </label><br>
                             <input type="file" name="signature" class="form-control" id="signature" required>
                         </div>
-                        <div class="form-group col-md-3">
-                            <label for="medical">MedicalCertificate</label><br>
-                            <input type="file" class="form-control" name="medical" id="medical">
+                    </div>
+                    <div class="row">
+                        
+                        <div class="form-group col-md-4">
+                            <label for="medicalCertificate">Medical Certificate</label><br>
+                            <input type="file" class="form-control" name="medicalCertificate" id="medicalCertificate">
                         </div>
                     </div>
-
                     <div class="button-container">
                         <button type="submit" class="center-button btn btn-success">SUBMIT</button>
                     </div>

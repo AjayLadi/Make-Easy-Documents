@@ -84,6 +84,12 @@ import { LocalFoodComponent } from './All_services/food-service/local-food/local
 import { StateFoodComponent } from './All_services/food-service/state-food/state-food.component';
 import { CentralFoodComponent } from './All_services/food-service/central-food/central-food.component';
 import { FoodManufacturingComponent } from './All_services/food-manufacturing/food-manufacturing.component';
+import { ShopComponent } from './All_services/shop-act/shop/shop.component';
+import { IndividualPanComponent } from './All_services/pan-service/individual-pan/individual-pan.component';
+import { CompanyPanComponent } from './All_services/pan-service/company-pan/company-pan.component';
+import { ComRegiComponent } from './All_services/company-registration/com-regi/com-regi.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -168,11 +174,17 @@ import { FoodManufacturingComponent } from './All_services/food-manufacturing/fo
     StateFoodComponent,
     CentralFoodComponent,
     FoodManufacturingComponent,
+    ShopComponent,
+    IndividualPanComponent,
+    CompanyPanComponent,
+    ComRegiComponent,
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [
     provideClientHydration(),

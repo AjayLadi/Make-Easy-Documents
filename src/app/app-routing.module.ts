@@ -79,6 +79,10 @@ import { LocalFoodComponent } from './All_services/food-service/local-food/local
 import { StateFoodComponent } from './All_services/food-service/state-food/state-food.component';
 import { CentralFoodComponent } from './All_services/food-service/central-food/central-food.component';
 import { FoodManufacturingComponent } from './All_services/food-manufacturing/food-manufacturing.component';
+import { ShopComponent } from './All_services/shop-act/shop/shop.component';
+import { IndividualPanComponent } from './All_services/pan-service/individual-pan/individual-pan.component';
+import { CompanyPanComponent } from './All_services/pan-service/company-pan/company-pan.component';
+import { ComRegiComponent } from './All_services/company-registration/com-regi/com-regi.component';
 
 const routes: Routes = [{
   path: '',
@@ -173,18 +177,22 @@ const routes: Routes = [{
 { path: 'credit_analysis', component: CreditManagementAnalysisComponent },
 { path: 'serv', component: AllservicePageComponent },
 { path: 'reset_password', component: ResetPassComponent },
-{ path: 'create_account', component: CreateAcComponent},
-{ path: 'income_certificate', component: IncomeCertificateComponent},
-{ path: 'admin', component: DashboardComponent},
-{ path: 'food_manufacturing', component: FoodManufacturingComponent},
+{ path: 'create_account', component: CreateAcComponent },
+{ path: 'income_certificate', component: IncomeCertificateComponent },
+{ path: 'admin', component: DashboardComponent },
+{ path: 'food_manufacturing', component: FoodManufacturingComponent },
 
-{ path: 'learning', component: LearningDLComponent},
-{ path: 'permanant', component: PermanantDLComponent},
-{ path: 'renew', component: RenewDLComponent},
+{ path: 'learning', component: LearningDLComponent },
+{ path: 'permanant', component: PermanantDLComponent },
+{ path: 'renew', component: RenewDLComponent },
 
-{ path: 'local_food', component: LocalFoodComponent},
-{ path: 'state_food', component: StateFoodComponent},
-{ path: 'central_food', component: CentralFoodComponent},
+{ path: 'local_food', component: LocalFoodComponent },
+{ path: 'state_food', component: StateFoodComponent },
+{ path: 'central_food', component: CentralFoodComponent },
+{ path: 'shop_act', component: ShopComponent },
+{path: 'individual_pan', component:IndividualPanComponent},
+{path:'company_pan',component:CompanyPanComponent},
+{path:'company_registration',component:ComRegiComponent}
 ];
 
 
