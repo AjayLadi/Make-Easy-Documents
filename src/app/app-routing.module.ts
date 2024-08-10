@@ -83,6 +83,19 @@ import { ShopComponent } from './All_services/shop-act/shop/shop.component';
 import { IndividualPanComponent } from './All_services/pan-service/individual-pan/individual-pan.component';
 import { CompanyPanComponent } from './All_services/pan-service/company-pan/company-pan.component';
 import { ComRegiComponent } from './All_services/company-registration/com-regi/com-regi.component';
+import { NamechangeGazetteComponent } from './All_services/gadget-rajpatra/namechange-gazette/namechange-gazette.component';
+import { DobGazetteComponent } from './All_services/gadget-rajpatra/dob-gazette/dob-gazette.component';
+import { ReligionGazetteComponent } from './All_services/gadget-rajpatra/religion-gazette/religion-gazette.component';
+import { FreshPassportComponent } from './All_services/passport/fresh-passport/fresh-passport.component';
+import { ReissuePassportComponent } from './All_services/passport/reissue-passport/reissue-passport.component';
+import { ApplyItrComponent } from './All_services/itr-filing/apply-itr/apply-itr.component';
+import { ApplyGstComponent } from './All_services/gst-service/gst-registration/apply-gst/apply-gst.component';
+import { ItServicesComponent } from './All_services/it-services/it-services.component';
+import { DomicileCertificateComponent } from './All_services/domicile-certificate/domicile-certificate.component';
+import { UddyamAdharComponent } from './All_services/uddyam-adhar/uddyam-adhar.component';
+import { VotterIdComponent } from './All_services/votter-id/votter-id.component';
+import { ShiptingVotterComponent } from './All_services/votter-id/shipting-votter/shipting-votter.component';
+import { NewVotterComponent } from './All_services/votter-id/new-votter/new-votter.component';
 
 const routes: Routes = [{
   path: '',
@@ -192,7 +205,20 @@ const routes: Routes = [{
 { path: 'shop_act', component: ShopComponent },
 {path: 'individual_pan', component:IndividualPanComponent},
 {path:'company_pan',component:CompanyPanComponent},
-{path:'company_registration',component:ComRegiComponent}
+{path:'company_registration',component:ComRegiComponent},
+{path: 'name_change_gazette', component:NamechangeGazetteComponent},
+{path:'dob_change_gazette',component:DobGazetteComponent},
+{path:'religion_change_gazette',component:ReligionGazetteComponent},
+{path:'fress_pass',component:FreshPassportComponent},
+{path:'reissue_pass',component:ReissuePassportComponent},
+{path:'apply_itr',component:ApplyItrComponent},
+{path:'apply_gst',component:ApplyGstComponent},
+{path:'it_service',component:ItServicesComponent},
+{path:'domicile',component:DomicileCertificateComponent},
+{path:'uddyam',component:UddyamAdharComponent},
+{path:'voter_id',component:VotterIdComponent},
+{path:'new_votter',component:NewVotterComponent},
+{path:'shipt_votter',component:ShiptingVotterComponent},
 ];
 
 

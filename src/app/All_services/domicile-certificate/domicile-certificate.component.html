@@ -1,11 +1,11 @@
 <!-- Page Title -->
 <div class="page-title" data-aos="fade">
     <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Income Certificate</h1>
+        <h1 class="mb-2 mb-lg-0">Domicile Certificate</h1>
         <nav class="breadcrumbs">
             <ol>
                 <li><a routerLink="/home" class="active">Home</a></li>
-                <li class="current"><a routerLink="/income_certificate">Income Certificate</a></li>
+                <li class="current"><a routerLink="/domicile">Domicile Certificate</a></li>
             </ol>
         </nav>
     </div>
@@ -13,7 +13,7 @@
 <section id="contact" class="contact" data-aos="fade-up">
     <div class="container" data-aos="fade-up">
         <div class="section-title">
-            <h2 style="font-size:25px;">Income Certificate
+            <h2 style="font-size:25px;">Domicile Certificate
             </h2>
         </div>
         <div class="row">
@@ -22,47 +22,48 @@
             <div class="col-lg-10 mt-10 mt-lg-0 align-items-stretch">
                 <form action="" method="post" role="form" class="info">
                     <div class="row">
+                        <div class="row">
+                            <div class="Uplodedc" form-group>
+                                <h4>- Applicant Details -</h4>
+                            </div>
+                        </div> <br>
                         <div class="form-group col-md-4">
-                            <label for="fullNameEnglish" class="required">Full Name English</label>
-                            <input type="text" name="fullNameEnglish" placeholder=" - - -  " class="form-control" id="fullNameEnglish"
+                            <label for="fullName" class="required">Full Name English</label>
+                            <input type="text" name="fullName" placeholder=" - - -  " class="form-control" id="fullName"
                                 required>
                         </div>
                         <div class="form-group col-md-4">
                             <label for="fullNameMarathi" class="required">Full Name In Marathi</label>
-                            <input type="text" name="fullNameMarathi" placeholder=" - - -  " class="form-control" id="fullNameMarathi"
-                                required>
+                            <input type="text" name="fullNameMarathi" placeholder=" - - -  " class="form-control"
+                                id="fullNameMarathi" required>
                         </div>
                         <div class="form-group col-md-4">
                             <label for="fatherFullNameEnglish" class="required">Father Full Name English </label>
-                            <input type="text" name="fatherFullNameEnglish" placeholder=" - - -  " class="form-control" id="fatherFullNameEnglish"
-                                required>
+                            <input type="text" name="fatherFullNameEnglish" placeholder=" - - -  " class="form-control"
+                                id="fatherFullNameEnglish" required>
                         </div>
                     </div>
                     <div class="row">
                         <div class="form-group col-md-4">
                             <label for="fatherFullNameMarathi" class="required">Father Full Name Marathi </label>
-                            <input type="text" name="fatherFullNameMarathi" placeholder=" - - -  " class="form-control" id="fatherFullNameMarathi"
-                                required>
+                            <input type="text" name="fatherFullNameMarathi" placeholder=" - - -  " class="form-control"
+                                id="fatherFullNameMarathi" required>
                         </div>
                         <div class="form-group col-md-4">
-                            <label for="incomeCertificate" class="required">Income Certificate</label>
-                            <select name="incomeCertificate" class="form-control" id="incomeCertificate" required>
-                                <option value="" disabled selected>- - - </option>
-                                <option value="vehicle1">1 Year</option>
-                                <option value="vehicle2">2 Year</option>
-                            </select>
+                            <label for="occupation" class="required">Occupation</label>
+                            <input type="text" name="occupation" placeholder=" - - -  " class="form-control"
+                                id="occupation" required>
                         </div>
                         <div class="form-group col-md-3">
                             <label for="dateOfBirth">Date of Birth</label>
-                            <input type="date" name="dateOfBirth" placeholder="Date of Birth" class="form-control" id="dateOfBirth"
-                                required>
+                            <input type="date" name="dateOfBirth" placeholder="Date of Birth" class="form-control"
+                                id="dateOfBirth" required>
                         </div>
                     </div>
                     <div class="row">
                         <div class="form-group col-md-1">
                             <label for="age" class="required">age</label><br>
-                            <input type="text" name="age" placeholder=" - - - " class="form-control"
-                                id="age" required>
+                            <input type="text" name="age" placeholder=" - - - " class="form-control" id="age" required>
                         </div>
                         <div class="form-group col-md-3">
                             <label for="gender" style="padding-bottom: 10px;" id="gender">Gender</label><br>
@@ -72,46 +73,31 @@
                         </div>
                         <div class="form-group col-md-4">
                             <label for="mobileNumber" class="required">Mobile Number</label><br>
-                            <input type="text" name="mobileNumber" placeholder="- - - " class="form-control" id="mobileNumber"
-                                required>
+                            <input type="text" name="mobileNumber" placeholder="- - - " class="form-control"
+                                id="mobileNumber" required>
                         </div>
                         <div class="form-group col-md-4">
-                            <label for="service" class="required">Service</label><br>
-                            <input type="text" name="service" placeholder="- - - " class="form-control" id="service"
+                            <label for="address">Address</label><br>
+                            <input type="text " class="form-control" placeholder=" - - - " name="address" id="address"
                                 required>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="form-group col-md-4">
-                            <label for="address">Address</label><br>
-                            <input type="text " class="form-control" placeholder=" - - - " name="address"
-                                id="address" required>
-                        </div>
-                        
-                        <div class="form-group col-md-4">
-                            <label for="state">State</label><br>
-                            <input type="text" name="state" placeholder="- - - " class="form-control" id="state">
-                        </div> <br>
                         <div class="form-group col-md-4">
                             <label for="district">District</label><br>
                             <input type="text" name="district" placeholder=" - - - " class="form-control" id="district">
                         </div> <br>
-                    </div>
-                    <div class="row">
                         <div class="form-group col-md-4">
-                            <label for="pincode">pincode</label>
-                            <input type="text" name="pincode" placeholder="- - - " class="form-control" id="pincode" required>
-                        </div>
+                            <label for="tahsil">Tahsil</label><br>
+                            <input type="text" name="tahsil" placeholder="- - - " class="form-control" id="tahsil">
+                        </div> <br>
                         <div class="form-group col-md-4">
-                            <label for="sourceOfIncome">Source Of Income </label><br>
-                            <input type="text" name="sourceOfIncome" placeholder=" - - - " class="form-control" id="sourceOfIncome"
-                                required>
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label for="purposeOfIncomeCertificate">Purpose Of Income Certificate</label><br>
-                            <input type="text" class="form-control" placeholder=" - - - " name="purposeOfIncomeCertificate" id="purposeOfIncomeCertificate" required>
+                            <label for="residingAddressSince">Residing Address Since</label>
+                            <input type="text" name="residingAddressSince" placeholder="- - - " class="form-control"
+                                id="residingAddressSince" required>
                         </div>
                     </div>
+
                     <div class="row">
                         <div class="Uplodedc" form-group>
                             <h4>- Benificiary Details -</h4>
@@ -161,6 +147,7 @@
                             <input type="number " class="form-control" placeholder=" - - - "
                                 name="benificiaryAdmissionYear" id="benificiaryAdmissionYear" required>
                         </div>
+
                         <div class="form-group col-md-4">
                             <label for="benificiaryCompelitionYear">Benificiary Compelition Year</label><br>
                             <input type="number" name="benificiaryCompelitionYear" placeholder=" - - - "
@@ -171,8 +158,8 @@
                             <input type="text" name="reasonOfDomicile" placeholder="- - - " class="form-control"
                                 id="reasonOfDomicile">
                         </div> <br>
-                    </div>
 
+                    </div>
                     <div class="row">
                         <div class="Uplodedc" form-group>
                             <h4>- Upload Required Documents -</h4>
@@ -180,29 +167,44 @@
                     </div> <br>
                     <div class="row">
                         <div class="form-group col-md-4">
-                            <label for="rationCard" class="required">Ration Card
+                            <label for="aadharCardSon" class="required">Aadhar Card (Son)
                             </label>
-                            <input type="file" name="rationCard" placeholder=". . ." class="form-control"
-                                id="rationCard" required>
+                            <input type="file" name="aadharCardSon" placeholder=". . ." class="form-control"
+                                id="aadharCardSon" required>
                         </div>
                         <div class="form-group col-md-4">
-                            <label for="aadharCard">AadharCard</label><br>
-                            <input type="file" name="aadharCard" class="form-control" id="aadharCard" required>
+                            <label for="aadharCardFather">Aadhar Card (Father)</label><br>
+                            <input type="file" name="aadharCardFather" class="form-control" id="aadharCardFather"
+                                required>
                         </div>
                         <div class="form-group col-md-4">
-                            <label for="photoIdentity" class="required">Passport Photo</label>
-                            <input type="file" name="photoIdentity" placeholder=". . ." class="form-control"
-                                id="photoIdentity" required>
+                            <label for="schoolLCSon" class="required">School LC (Son)</label>
+                            <input type="file" name="schoolLCSon" placeholder=". . ." class="form-control"
+                                id="schoolLCSon" required>
                         </div>
                     </div>
                     <div class="row">
                         <div class="form-group col-md-4">
-                            <label for="signature">Signature </label><br>
-                            <input type="file" name="signature" class="form-control" id="signature" required>
+                            <label for="schoolLCFather">School LC (Father) </label><br>
+                            <input type="file" name="schoolLCFather" class="form-control" id="schoolLCFather" required>
                         </div>
                         <div class="form-group col-md-4">
-                            <label for="talithiIncome">Talathi Income</label><br>
-                            <input type="file" class="form-control" name="talithiIncome" id="talithiIncome">
+                            <label for="photo">Photo</label><br>
+                            <input type="file" class="form-control" name="photo" id="photo">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="rationCard">Ration Card</label><br>
+                            <input type="file" class="form-control" name="rationCard" id="rationCard">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-4">
+                            <label for="lightBill">Light Bill</label><br>
+                            <input type="file" name="lightBill" class="form-control" id="lightBill" required>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="MSEBBonafide">MSEB Bonafide</label><br>
+                            <input type="file" class="form-control" name="MSEBBonafide" id="MSEBBonafide">
                         </div>
                     </div>
                     <div class="button-container">

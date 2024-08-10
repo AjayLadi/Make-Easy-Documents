@@ -89,7 +89,19 @@ import { IndividualPanComponent } from './All_services/pan-service/individual-pa
 import { CompanyPanComponent } from './All_services/pan-service/company-pan/company-pan.component';
 import { ComRegiComponent } from './All_services/company-registration/com-regi/com-regi.component';
 import { HttpClientModule } from '@angular/common/http';
-import { FormsModule } from '@angular/forms';
+import { NamechangeGazetteComponent } from './All_services/gadget-rajpatra/namechange-gazette/namechange-gazette.component';
+import { DobGazetteComponent } from './All_services/gadget-rajpatra/dob-gazette/dob-gazette.component';
+import { ReligionGazetteComponent } from './All_services/gadget-rajpatra/religion-gazette/religion-gazette.component';
+import { FreshPassportComponent } from './All_services/passport/fresh-passport/fresh-passport.component';
+import { ReissuePassportComponent } from './All_services/passport/reissue-passport/reissue-passport.component';
+import { ApplyItrComponent } from './All_services/itr-filing/apply-itr/apply-itr.component';
+import { ApplyGstComponent } from './All_services/gst-service/gst-registration/apply-gst/apply-gst.component';
+import { ItServicesComponent } from './All_services/it-services/it-services.component';
+import { DomicileCertificateComponent } from './All_services/domicile-certificate/domicile-certificate.component';
+import { UddyamAdharComponent } from './All_services/uddyam-adhar/uddyam-adhar.component';
+import { VotterIdComponent } from './All_services/votter-id/votter-id.component';
+import { NewVotterComponent } from './All_services/votter-id/new-votter/new-votter.component';
+import { ShiptingVotterComponent } from './All_services/votter-id/shipting-votter/shipting-votter.component';
 
 @NgModule({
   declarations: [
@@ -178,13 +190,25 @@ import { FormsModule } from '@angular/forms';
     IndividualPanComponent,
     CompanyPanComponent,
     ComRegiComponent,
+    NamechangeGazetteComponent,
+    DobGazetteComponent,
+    ReligionGazetteComponent,
+    FreshPassportComponent,
+    ReissuePassportComponent,
+    ApplyItrComponent,
+    ApplyGstComponent,
+    ItServicesComponent,
+    DomicileCertificateComponent,
+    UddyamAdharComponent,
+    VotterIdComponent,
+    NewVotterComponent,
+    ShiptingVotterComponent,
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
   ],
   providers: [
     provideClientHydration(),

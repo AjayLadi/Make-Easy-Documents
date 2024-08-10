@@ -1,0 +1,139 @@
+<!-- Page Title -->
+<div class="page-title" data-aos="fade">
+    <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">New Votter ID </h1>
+        <nav class="breadcrumbs">
+            <ol>
+                <li><a routerLink="/home" class="active">Home</a></li>
+                <li class="current"><a routerLink="/voter_id">Go Back <i class="bi bi-arrow-left-circle"></i> </a></li>
+            </ol>
+        </nav>
+    </div>
+</div><!-- End Page Title --><br>
+<section id="contact" class="contact" data-aos="fade-up">
+    <div class="container" data-aos="fade-up">
+        <div class="section-title">
+            <h2 style="font-size:25px;">New Votter ID
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-1">
+            </div>
+            <div class="col-lg-10 mt-10 mt-lg-0 align-items-stretch">
+                <form action="" method="post" role="form" class="info">
+                    <div class="row">
+                        <div class="form-group col-md-4">
+                            <label for="fullName" class="required">Full Name </label>
+                            <input type="text" name="fullName" placeholder=" - - -  " class="form-control" id="fullName"
+                                required>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="gender" style="padding-bottom: 10px; ">Gender</label><br>
+                            <input type="radio" name="gender" value="male"> Male &nbsp;
+                            <input type="radio" name="gender" value="female"> Female &nbsp;
+                            <input type="radio" name="gender" value="other"> Other
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="dateOfBirth">Date of Birth</label>
+                            <input type="date" name="dateOfBirth" placeholder="Date of Birth" class="form-control" id="dateOfBirth"
+                                required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-4">
+                            <label for="mobileNumber" class="required">Mobile Number</label><br>
+                            <input type="text" name="mobileNumber" placeholder="- - - " class="form-control" id="mobileNumber"
+                                required>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="email">Email Id</label><br>
+                            <input type="email" name="email" placeholder="- - - " class="form-control" id="email">
+                        </div> <br>
+
+                        <div class="form-group col-md-4">
+                            <label for="birthplace" class="required">Place Of Birth</label>
+                            <input type="text" name="birthplace" placeholder=" - - - " class="form-control"
+                                id="birthplace" required>
+                        </div>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-4">
+                            <label for="birthState" class="required">Birth State</label><br>
+                            <input type="text" name="birthState" placeholder=" - - - " class="form-control"
+                                id="birthState" required>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="birthDistrict">Birth District</label><br>
+                            <input type="text" class="form-control" placeholder=" - - - " name="birthDistrict"
+                                id="birthDistrict" required>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="relation" class="required">Relation</label>
+                            <select name="relation" class="form-control" id="relation" required>
+                                <option value="" disabled selected>- - - </option>
+                                <option value="vehicle1">Father </option>
+                                <option value="vehicle2">Mother</option>
+                                <option value="vehicle3">Husband </option>
+                                <option value="vehicle4">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-4">
+                            <label for="relationName">Relation Name</label><br>
+                            <input type="text " class="form-control" placeholder=" - - - " name="relationName"
+                                id="relationName" required>
+                        </div>
+                        
+                        <div class="form-group col-md-4">
+                            <label for="address">Enter Full Address</label><br>
+                            <input type="text" name="address" placeholder=" - - - " class="form-control" id="address">
+                        </div> <br>
+                        <div class="form-group col-md-4">
+                            <label for="relationPincode">Relation Pincode</label><br>
+                            <input type="text" name="relationPincode" placeholder=" - - - " class="form-control" id="relationPincode">
+                        </div> <br>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-4">
+                            <label for="livingAddressSince">Living Address Since</label>
+                            <input type="text" name="livingAddressSince" placeholder="- - - " class="form-control" id="livingAddressSince" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="Uplodedc" form-group>
+                            <h4>- Upload Required Documents -</h4>
+                        </div>
+                    </div> <br>
+                    
+                    <div class="row">
+                        <div class="form-group col-md-4">
+                            <label for="adharCard">Adhar Card </label><br>
+                            <input type="file" name="adharCard" class="form-control" id="adharCard" required>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="panCard" class="required">Pan  Card
+                            </label>
+                            <input type="file" name="addressProof" placeholder=". . ." class="form-control"
+                                id="panCard" required>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="passportPhoto" class="required">Passport Photo
+                            </label>
+                            <input type="file" name="passportPhoto" placeholder=". . ." class="form-control"
+                                id="passportPhoto" required>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="signature">Signature </label><br>
+                            <input type="file" name="signature" class="form-control" id="signature" required>
+                        </div>
+                    </div>
+                    <div class="button-container">
+                        <button type="submit" class="center-button btn btn-success">SUBMIT</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section><!-- End Contact Section -->
