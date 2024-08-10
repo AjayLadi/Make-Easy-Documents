@@ -59,7 +59,9 @@ tr:nth-child(even) {
     margin-left: 24px;
     list-style: none;
 }
-
+.benifits-text{
+    color: white;
+}
 .food__cont1 {
     margin-bottom: 0px;
 }
